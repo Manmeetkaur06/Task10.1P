@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+/* App.css */
+.banner-image {
+  width: 100%; /* Adjust this to change the actual size of the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center align the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a shadow for depth */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Adjust the container to ensure it aligns everything including the banner */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px; /* Adds padding on both sides */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Assuming your heading has a class 'section-title' */
+.section-title {
+  text-align: center; /* Centers the text */
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 20px 0; /* Adds vertical space around the heading */
+  color: #333; /* Set the color of the text, if needed */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Assuming you have a CSS file where this can be placed or adjusted */
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Centers the button horizontally */
+  padding: 20px; /* Adds some padding around the button for spacing */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
