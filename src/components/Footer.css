@@ -1,68 +1,99 @@
-/* Sign-up section */
 .signup-section {
-    background-color: #d3d3d3; /* Light grey background for the sign-up section */
+    background-color: #d3d3d3; 
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-  }
+}
   
-  .signup-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between text and input */
-  }
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
   
-  .signup-container h3 {
-    font-size: 1.5em;
-    margin: 0;
-  }
+.signup-container h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
   
-  /* Teal background footer section */
-  .footer-wrapper {
-    background-color: #a6dff5; /* Teal background */
-    color: white;
-    padding: 40px;
-  }
-  
-  /* Footer content grid layout */
+.footer-wrapper {
+  background-color: #007bff; 
+  padding: 30px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px;
+  max-width: 1500px; 
+  margin: 0 auto;
+  flex-wrap: wrap; 
+}
+
+.footer-column {
+  flex: 1; 
+  min-width: 400px; 
+  padding: 10px;
+  text-align: center; 
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  color: #d1d1d1; 
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-column p:hover {
+  color: #ffffff; 
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #007bff; 
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #d1d1d1;
+  border-top: 1px solid #007bff; 
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
   .footer-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-    gap: 40px; /* Add space between the columns */
-    padding: 20px 0;
-  }
-  
-  .footer-column h4 {
-    margin-bottom: 10px;
-    color: black;
-  }
-  
-  .footer-column p {
-    margin: 5px 0;
-    color: black;
-    cursor: pointer;
-  }
-  
-  .footer-column p:hover {
-    text-decoration: underline;
-  }
-  
-  /* Social media icons */
-  .social-icons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  /* Footer bottom section styling */
-  .footer-bottom {
-    background-color: #a6dff5 !important; 
-    padding: 20px; /* Add padding for better spacing */
+    flex-direction: column; 
+    align-items: center;
     text-align: center;
   }
   
-  .footer-bottom p {
-    margin: 5px 0;
-    color: black; /* Set text color to black */
-    font-weight: bold; /* Make text bold */
+  .footer-column {
+    text-align: center; 
+    margin-bottom: 20px;
   }
+}
