@@ -1,20 +1,8 @@
 import React from 'react';
-import { Input } from 'semantic-ui-react';
 import './Footer.css';
 
 const Footer = () => (
   <>
-    {/* Email sign-up section outside of the main footer */}
-    <div className="signup-section">
-      <div className="signup-container">
-        <h3>SIGN UP FOR OUR DAILY INSIDER</h3>
-        {/* Input for email with a 'Subscribe' button */}
-        <Input 
-          action={{ color: 'grey', labelPosition: 'right', icon: 'mail', content: 'Subscribe' }} 
-          placeholder="Enter your email..." 
-        />
-      </div>
-    </div>
 
     {/* Main footer section */}
     <div className="footer-wrapper">

@@ -1,22 +1,4 @@
-.signup-section {
-    background-color: #d3d3d3; 
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-  
-.signup-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; 
-}
-  
-.signup-container h3 {
-  font-size: 1.5em;
-  margin: 0;
-}
-  
+
 .footer-wrapper {
   background-color: #007bff; 
   padding: 30px 0;

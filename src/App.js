@@ -3,6 +3,7 @@ import Header from './components/Header';
 import FeaturedArticles from './components/FeaturedArticles';
 import FeaturedTutorials from './components/FeaturedTutorials';
 import Footer from './components/Footer';
+import Newsletter from './components/NewsLetter';
 import './App.css';
 import sampleImage from './assets/picture1.png'; 
 
@@ -28,6 +29,10 @@ function App() {
         
         <div className="app-button-container">
           <button className="app-button">See all tutorials</button>
+        </div>
+
+        <div className="Signup">
+            <Newsletter />
         </div>
       </div>
 
